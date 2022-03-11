@@ -8,7 +8,7 @@ userfile=$3 # user provided answer file
 correct=0
 wrong=0
 
-# automatic set_mode
+# automatic mode
 if [[ $# -eq 3 ]]
 then
     test=$(paste -d '|' ${userfile} ${afile})
