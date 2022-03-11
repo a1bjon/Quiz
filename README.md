@@ -1,4 +1,7 @@
 # Quiz-Checker
+An interactive quiz script
+
+
 Can be run in interactive mode by providing 2 file arguments.
 # Interactive Mode
 (./quiz.sh "questions.txt" "answers.txt")
