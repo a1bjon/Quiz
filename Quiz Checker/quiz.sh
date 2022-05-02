@@ -22,8 +22,7 @@ then
             ((correct++))
         fi
         ((cnt++))
-        if [ $cnt -eq 10 ]
-        then
+        if [ $cnt -eq 10 ];then
             break
         fi
     done <<< "$test"
